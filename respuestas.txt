@@ -3,8 +3,15 @@ Es una herramienta que permite administrar múltiples versiones del intérprete 
 
 ¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete
 de Ruby (ruby helloWorld.rb) y el intérprete interactivo del ejercicio anterior?
-En el ejercicio anterior muetra el contenido del fichero, es decir, el código que va a ejecutar,
-muestra la salida de dicho código, muestra la salida '=> nil', es decir, que es nulo o falso
-y por último muestra el número de lineas que tiene el fichero.
+En el ejercicio anterior muetra la línea por la que se encuentra , es decir, el código que va a ejecutar,
+muestra la salida de dicho código, muestra la salida '=> nil'.
 
 En cambio en la ejecución con el intérprete de Ruby sólo muestra la salida de dicho código.
+
+¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete
+interactivo y con PRY?
+Las diferencias son las mismas que en la pregunta anteior, es decir, el irb muestra la línea por la que está ejecutando
+y su salida, tambien muestra '=> nil', mientras que con pry no, es decir, muestra sólo la salida del programa.
+(NOTA: yo presupongo que el código de helloworld.rb no hay que modificarlo, si se modificara para añadir el pry la ejecución cambiaría).
+
+ 
